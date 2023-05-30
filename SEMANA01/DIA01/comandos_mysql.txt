@@ -50,3 +50,11 @@ luego:
 git add .
 git commit -m  "dia01"    -> hace referencia a la carpeta en donde esta ubicado tu cambio
 git push origin main
+
+
+LOAD DATA INFILE 'c:/alumnos.csv' 
+INTO TABLE alumnos
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
