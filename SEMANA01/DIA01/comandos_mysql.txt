@@ -1,0 +1,28 @@
+Para acceder a mysql
+
+mysql -h localhost -u root -p
+
+Para ver las bases de datos
+
+show databases;
+
+Para crear una base de datos
+
+create database curso;
+
+Para acceder a la base de datos
+
+use curso;
+
+Para crear tablas 
+TIPOS DE DATOS
+VARCHAR: Varios caracteres, tipo de dato estandar
+
+create table alumnos(
+nombre VARCHAR (100) not null,
+email VARCHAR(200)
+);
+
+Para ver el contenido de la tabla
+desc alumnos
+
