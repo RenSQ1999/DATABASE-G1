@@ -26,3 +26,10 @@ email VARCHAR(200)
 Para ver el contenido de la tabla
 desc alumnos
 
+Para insertar valores a la tabla
+insert into alumnos values ('renzo sarmiento', 'renzo.sarq99@gmail.com');
+
+insert into alumnos values
+('Jose Luna','pepe@hotmail.com'),
+('Laura Lopez','laurital89@gmail.com');
+
