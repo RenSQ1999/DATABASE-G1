@@ -1,3 +1,10 @@
+git clone "ENLACE"
+Copiar del perfil el enlace ubicado en la seccion code, y luego pegarlo en el espacio que dice ENLACE, esto sirve para poder subir sin problemas a la nube lo que se viene avanzando.
+
+
+
+
+
 Para acceder a mysql
 
 mysql -h localhost -u root -p
@@ -33,3 +40,13 @@ insert into alumnos values
 ('Jose Luna','pepe@hotmail.com'),
 ('Laura Lopez','laurital89@gmail.com');
 
+
+
+Para poder actualizar y subir la nueva informacion primero seguir los siguiente pasos
+
+git add .
+
+luego: 
+git add .
+git commit -m  "dia01"    -> hace referencia a la carpeta en donde esta ubicado tu cambio
+git push origin main
